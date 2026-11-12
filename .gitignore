@@ -1,0 +1,31 @@
+# Secrets and private info (never upload these)
+.env
+.env.*
+*.key
+*.pem
+secrets/
+private/
+passwords.txt
+
+# Backups and source archives
+*.zip
+*.rar
+*.7z
+*.bak
+*.old
+*.tmp
+backup/
+
+# Old documents that may contain personal details
+old-resume*
+*.docx
+
+# Computer and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependencies (if you ever use npm)
+node_modules/
